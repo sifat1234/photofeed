@@ -27,4 +27,8 @@
   .title {
     @apply text-white font-semibold text-base lg:text-lg;
   }
+
+  dialog::backdrop {
+    background: rgba(0, 0, 0, 0.55);
+  }
 }

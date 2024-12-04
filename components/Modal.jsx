@@ -11,8 +11,8 @@ const Modal = ({ children }) => {
   const router = useRouter();
 
   useEffect(() => {
-    if (!modalRef.current?.open) {
-      modalRef.current?.showModal();
+    if (!modalRef?.current?.open) {
+      modalRef.current.showModal();
     }
   }, []);
 
